@@ -64,6 +64,7 @@ EXTERNAL_APPS = [
 # nadie a la que depende de todas: es el mismo orden en el que se construyen.
 LOCAL_APPS = [
     "apps.accounts.apps.AccountsConfig",
+    "apps.institutions.apps.InstitutionsConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + EXTERNAL_APPS + LOCAL_APPS
